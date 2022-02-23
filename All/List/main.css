@@ -1,0 +1,31 @@
+html,body{
+    font-family: sans-serif ; 
+    background: #3e94ec;
+    background-position: 0%;
+}
+
+table{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 225px;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+#row1{
+    background-color: #000000;
+    color: white;
+    height: 60px;
+}
+
+tbody{
+    background-color: #fff;
+}
+
+#row2,#row3,#row4,#row5{
+    height: 30px;
+}
+
+#row3,#row5{
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(xyz.png);
+    background-size:cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    
+}
+.xyz{
+	width: 320px;
+	height: 420px;
+	background: tranparent;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: static;
+	transform: translate(10%,-50% );
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-left: 53%;
+	margin-top: 30%;    
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	margin-bottom: 100px;
+    transition: linear 0.5s;
+}
+
+.avatar:hover{
+    transform: rotate(360deg)
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.xyz p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.xyz input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.xyz input[type="Email"],input[type=Password]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.xyz input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: linear 0.5s;
+}
+
+.xyz input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+
+a{
+    float: right;
+    color:  #fb2525;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+    transition: linear 0.5s;
+}
+
+a.para{
+    margin-right: 30%;
+}
+
+a.para2{
+    margin-right: 27%;
+}
+
+a:hover{
+	cursor: pointer;
+	color: #ffc107;
+	
+}
+

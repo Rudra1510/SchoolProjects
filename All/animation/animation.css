@@ -1,0 +1,80 @@
+/* #row1{
+    background-color: black;
+    animation: rudra 1s alternate-reverse 5;
+} */
+
+/* 
+@keyframes rudra{
+    from{background-color: black;}
+    to{background-color: white;}
+} */
+
+
+/* ball animation */
+/* #ball{
+    height: 50px;
+    width: 50px;
+    background-color: #3e94ec;
+    animation: ball 4s infinite;
+    float: left;
+    border-radius: 100%;
+}
+
+@keyframes ball{
+    0%{margin-top : 0%;margin-left: 0%;background-color:  #c850c0}
+    25%{margin-top : 0%;margin-left: 96%;background-color: #4158d0}
+    50%{margin-top : 49%;margin-left: 96%;background-color: #4158d0}
+    75%{margin-top : 49%;margin-left: 0%;background-color: #c850c0}
+    100%{margin-top : 0%;margin-left: 0%;background-color: #c850c0}
+}
+#ball2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    animation: ball2 4s infinite;
+    float: right;
+    border-radius: 100%;
+}
+
+
+@keyframes ball2{
+    0%{}
+    25%{margin-top: 45%;margin-right: 0%;}
+    50%{margin-top: 45%;margin-right: 96%;float: left;}
+    75%{margin-top:0%;margin-right: 96%;}
+    100%{margin: 0%}
+} */
+
+table{
+    opacity: 1;
+    animation-name: rudra;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rudra{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#fadetext{
+    color: white;
+    font-size: 4em;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0;
+    float: inline-start;
+    padding-top: 22.5%;
+    text-align: center;
+    animation: fadetextanim 8s 1;
+}
+
+@keyframes fadetextanim{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
