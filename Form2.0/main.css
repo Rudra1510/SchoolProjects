@@ -1,0 +1,93 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
+
+body {
+  background-color: #fffeff;
+  padding-top: 20%;
+}
+
+span {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 30px;
+  color: #403866;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.TextInput {
+  background-color: rgba(64, 56, 102, 0.3);
+
+  /* border: 1px;
+  border-style: solid;
+  border-color: #827ffe; */
+  border-radius: 5px;
+
+  border: 0;
+
+  font-family: Ubuntu;
+  font-size: 18px;
+
+  display: block;
+  width: 55%;
+  height: 62px;
+
+  margin: 20px 20% 20px 20%;
+  padding-left: 5%;
+}
+
+a {
+  margin-top: 2%;
+  text-decoration: none;
+  color: #403866;
+  font-family: Ubuntu;
+
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.GenderWrapper {
+  font-family: Ubuntu;
+  width: 95%;
+  text-align: center;
+}
+
+#FemaleRadio,
+#MaleRadio {
+  margin: 0% 0 0 5%;
+}
+/* 
+button {
+  font-family: Ubuntu;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 60%;
+  height: 62px;
+  background-color: #827ffe;
+  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+} */
+
+button {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2.5%;
+  height: 62px;
+  border: 0;
+  background-color: #827ffe;
+  font-family: Ubuntu;
+  font-size: 18px;
+}
